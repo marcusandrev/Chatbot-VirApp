@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #354259;
+}
+
+df-messenger {
+  --df-messenger-bot-message: #769fcd;
+  --df-messenger-button-titlebar-color: #769fcd;
+  --df-messenger-chat-background-color: #f7fbfc;
+  --df-messenger-font-color: #f7fbfc;
+  --df-messenger-send-icon: #878fac;
+
+  --df-messenger-chip-color: #f7fbfc;
+  --df-messenger-user-message: #769fcd;
+}
