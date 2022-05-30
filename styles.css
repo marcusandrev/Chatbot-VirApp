@@ -34,3 +34,10 @@ h2 {
   align-items: center;
   justify-content: space-between;
 }
+
+.dashlabs-sticker {
+  width: 20rem;
+  aspect-ratio: 1;
+
+  margin: 25vh auto;
+}
