@@ -35,6 +35,29 @@ h2 {
   justify-content: space-between;
 }
 
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0rem 1.3rem;
+}
+
+.nav-item > a,
+.nav-item > a:link,
+.nav-item > a:visited,
+.nav-item > a > i {
+  color: #f7fbfc;
+  font-size: 1.5rem;
+
+  transition: 0.3s ease-in-out;
+}
+
+.nav-item > a > i:hover {
+  color: pink;
+  transform: translateY(-5px);
+}
+
 .dashlabs-sticker {
   width: 20rem;
   aspect-ratio: 1;
