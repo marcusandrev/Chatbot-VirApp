@@ -1,3 +1,19 @@
+Chatbot link: https://dashbot-chi.vercel.app/
+
+# Vercel Stuff
+
+Auto-detected Project Settings (Create React App):
+
+- Build Command: react-scripts build
+- Output Directory: build
+- Development Command: react-scripts start
+  ? Want to override the settings? [y/N] n
+  🔗 Linked to marcusandrev/dashbot (created .vercel and added it to .gitignore)
+  🔍 Inspect: https://vercel.com/marcusandrev/dashbot/8iJPBW4K7ArAx9oVyDqbLjavKrwC [1s]
+  ✅ Production: https://dashbot-chi.vercel.app [copied to clipboard] [2m]
+  📝 Deployed to production. Run `vercel --prod` to overwrite later (https://vercel.link/2F).
+  💡 To change the domain or build command, go to https://vercel.com/marcusandrev/dashbot/settings
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
