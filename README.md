@@ -1,18 +1,11 @@
-Chatbot link: https://dashbot-chi.vercel.app/
+Chatbot link: https://dashbot-marcusandrev.vercel.app <br />
 
-# Vercel Stuff
+Our group's chatbot flowchart: [Flowchart](https://miro.com/app/board/uXjVOzY60rY=/?moveToWidget=3458764525889896312&cot=14) <br />
 
-Auto-detected Project Settings (Create React App):
+Our group's chatbot paper: [Paper](https://docs.google.com/document/d/1x-hGyr_oL7S9VUyY-lDZ3ej822zCUBynJgWmPBsv--c/edit) <br />
 
-- Build Command: react-scripts build
-- Output Directory: build
-- Development Command: react-scripts start
-  ? Want to override the settings? [y/N] n
-  🔗 Linked to marcusandrev/dashbot (created .vercel and added it to .gitignore)
-  🔍 Inspect: https://vercel.com/marcusandrev/dashbot/8iJPBW4K7ArAx9oVyDqbLjavKrwC [1s]
-  ✅ Production: https://dashbot-chi.vercel.app [copied to clipboard] [2m]
-  📝 Deployed to production. Run `vercel --prod` to overwrite later (https://vercel.link/2F).
-  💡 To change the domain or build command, go to https://vercel.com/marcusandrev/dashbot/settings
+Dashlabs.ai Week 2 & 3 Challenge: [Week 2 & 3 Challenge](https://docs.google.com/document/d/1rCJ0EGBTwDAmwWNvXD_n5p4nvCCx9Cdj4iCgzDKyykU/edit?usp=sharing) <br />
+
 
 # Getting Started with Create React App
 
