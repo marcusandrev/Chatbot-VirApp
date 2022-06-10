@@ -1,4 +1,4 @@
-Chatbot link: https://dashbot-marcusandrev.vercel.app <br />
+Chatbot link: https://dashbot-chi.vercel.app/ <br />
 
 Our group's chatbot flowchart: [Flowchart](https://miro.com/app/board/uXjVOzY60rY=/?moveToWidget=3458764525889896312&cot=14) <br />
 

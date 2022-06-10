@@ -19,6 +19,8 @@ const theme = createTheme({
   typography: {
     button: {
       textTransform: "none",
+      fontFamily: "DM Sans",
+      fontSize: "16px",
     },
   },
   palette: {
@@ -36,6 +38,7 @@ const pages1 = ["For Patients", "For Laboratories"];
 
 function AppBar1() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const [anchorElNav1, setAnchorElNav1] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -43,6 +46,14 @@ function AppBar1() {
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
+  };
+
+  const handleOpenNavMenu1 = (event) => {
+    setAnchorElNav1(event.currentTarget);
+  };
+
+  const handleCloseNavMenu1 = () => {
+    setAnchorElNav1(null);
   };
 
   return (
@@ -116,9 +127,19 @@ function AppBar1() {
 
             <Box sx={{ flexGrow: 0 }}>
               <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+              <IconButton
+                size="large"
+                aria-label="account of current user"
+                aria-controls="menu-appbar"
+                aria-haspopup="true"
+                onClick={handleOpenNavMenu1}
+                color="inherit"
+              >
+                <MenuIcon />
+              </IconButton>
                 <Menu
                   id="menu-appbar"
-                  anchorEl={anchorElNav}
+                  anchorEl={anchorElNav1}
                   anchorOrigin={{
                     vertical: "bottom",
                     horizontal: "left",
@@ -128,14 +149,14 @@ function AppBar1() {
                     vertical: "top",
                     horizontal: "left",
                   }}
-                  open={Boolean(anchorElNav)}
-                  onClose={handleCloseNavMenu}
+                  open={Boolean(anchorElNav1)}
+                  onClose={handleCloseNavMenu1}
                   sx={{
                     display: { xs: "block", md: "none" },
                   }}
                 >
                   {pages1.map((page) => (
-                    <MenuItem key={page} onClick={handleCloseNavMenu}>
+                    <MenuItem key={page} onClick={handleCloseNavMenu1}>
                       <Typography textAlign="center">{page}</Typography>
                     </MenuItem>
                   ))}
@@ -146,7 +167,7 @@ function AppBar1() {
                 {pages1.map((page) => (
                   <Button
                     key={page}
-                    onClick={handleCloseNavMenu}
+                    onClick={handleCloseNavMenu1}
                     sx={{ my: 2, color: "#1665ff", display: "block", mr: 2 }}
                   >
                     {page}

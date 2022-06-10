@@ -1,14 +1,22 @@
 import "./App.css";
 
 // components
-import AppBar from "./components/appBar1";
+import AppBar from "./components/appBar";
 import Landing from "./components/landing";
 
 function App() {
   return (
     <div className="App">
       <AppBar />
+      <p style={{ textAlign: "center", fontSize: "12px" }}>
+        ‼ This is a sample coded website for Vir App Purposes ‼
+      </p>
       <Landing />
+      <p style={{ textAlign: "center", fontSize: "16px" }}>
+        Made with 💖 by Ching, Mauleon, Uriarte, & Villanueva
+      </p>
+
+
 
       {/* Dialogflow html 
        Ref: https://stackoverflow.com/questions/68688390/how-do-i-put-this-google-dialogflow-code-into-a-typescript-react-app */}

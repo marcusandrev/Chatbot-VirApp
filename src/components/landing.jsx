@@ -1,17 +1,17 @@
 import React from "react";
-import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 // assets
 import dlabs from "../assets/dlabs-pic.png";
+import dgifs from "../assets/dashlabs-gif.gif";
 
 const theme = createTheme({
   typography: {
     button: {
       textTransform: "none",
+      fontFamily: "DM Sans",
     },
   },
   palette: {
@@ -32,10 +32,9 @@ export default function landing() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          my: 5,
         }}
       >
-        <Box sx={{ mr: 5 }}>
+        <Box sx={{ mr: 10 }}>
           <h2 style={{ fontSize: "38px", color: "#448aff" }}>
             Testing made simple.
           </h2>
@@ -95,9 +94,43 @@ export default function landing() {
           >
             Get Tested
           </Button>
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              my: 5,
+            }}
+          >
+            <Box sx={{ pr: 2, pt: 3 }}>
+              <img src="https://uploads-ssl.webflow.com/61239791c9d56b5ef659fcf8/621301280149a107f8545383_Calendar%20icon.svg" />
+            </Box>
+            <Box>
+              <p
+                style={{
+                  color: "#1665ff",
+                  fontSize: "18px",
+                  marginBottom: "0px",
+                }}
+              >
+                Are you a lab of healthcare institution?
+              </p>
+              <p
+                style={{
+                  textDecoration: "underline",
+                  color: "#1665ff",
+                  fontSize: "18px",
+                  margin: "0px",
+                  paddingTop: "0px",
+                }}
+              >
+                Book a demo
+              </p>
+            </Box>
+          </Box>
         </Box>
 
-        <Box sx={{ ml: 5 }}>
+        <Box sx={{ ml: 10 }}>
           <img
             src={dlabs}
             style={{
@@ -122,6 +155,17 @@ export default function landing() {
       >
         Trusted by the best names in health, governance, and industry{" "}
       </h1>
+
+      <img
+        src={dgifs}
+        style={{
+          display: "block",
+          marginLeft: "auto",
+          marginRight: "auto",
+          width: "50%",
+          marginBottom: "30px",
+        }}
+      />
     </ThemeProvider>
   );
 }
